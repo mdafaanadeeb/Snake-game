@@ -1,0 +1,54 @@
+body {
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      flex-direction: column;
+    }
+
+    h1{
+      color: #6511e2;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    canvas {
+      background-color: #000;
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px lime;
+      display: none;
+    }
+
+    #score {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 24px;
+      text-shadow: 2px 2px 4px #000;
+      display: none;
+    }
+
+    #startBtn {
+      background-color: #001f4d;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    #startBtn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 0, 255, 0.9);
+    }
+  
